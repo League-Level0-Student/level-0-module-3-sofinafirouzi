@@ -22,6 +22,39 @@ if(answer.equals("square") ) {
 if(answer.equals("triangle")) {
 	drawTriangle();
 }
+
+String color = JOptionPane.showInputDialog("what color do you want your shape to be?");
+if(answer.equals("blue")) {
+	
+}
+if(answer.equals("green")) {
+	
+}
+if(answer.equals("yellow")) {
+	
+}
+if(answer.equals("red")) {
+	
+}
+if(answer.equals("orange")){
+	
+}
+if(answer.equals("purple")) {
+	
+}
+if(answer.equals("pink")) {
+	
+}
+ else {
+	
+}
+	
+	
+	
+	
+	
+	
+	
 }
 
 static void drawSquare(){
