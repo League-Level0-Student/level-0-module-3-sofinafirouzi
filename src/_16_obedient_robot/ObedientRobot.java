@@ -1,3 +1,4 @@
+package _16_obedient_robot;
 
 
 import javax.swing.JOptionPane;
