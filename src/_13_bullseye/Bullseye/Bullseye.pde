@@ -2,14 +2,24 @@ void setup() {
   size(600,600);
   background(#E5BCDC);
 }
-
+int size = 300;
+int count = 0;
 void draw(){
-  fill(#BCDFE5);
-  ellipse(300, 300, 300, 300);
   
- {
+  if(count % 2 == 0){
+  fill(#BCDFE5);
+}
+else {
+  fill(#FAF7BB);
   }
   
-  fill(#BCE5BE);
-  ellipse(300,300, 250, 250);
+  ellipse(300, 300, size, size);
+  if(size>50){
+    size -= 40;
+  }
+  
+
+count++;
+  
+  
 }
